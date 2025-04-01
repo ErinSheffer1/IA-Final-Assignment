@@ -1,0 +1,96 @@
+    /*  Erin's CSS File   */
+
+
+/*  body  { font-family:verdana, arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background: LavenderBlush; } */
+
+body  { font-family:verdana, arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background-image: url(images/backgroundone.jpg); }
+
+h1, h2, h3, h4, h5 {font-family: georgia, garamond, serif, georgia;
+		font-weight: normal; }
+
+h1 {font-size: 260%; }
+
+h2 {font-size: 180%; 
+    padding-left: 10px; }
+
+h3 {font-size: 125%; }
+
+h4 {font-size: 200%;
+    padding-left: 10px;  
+    margin-left: 100px; }
+
+h5 {font-size: 150%;
+    margin-left: 170px; }
+
+p {font-size: 110%; } /* I changed up the sizes of the fonts a bit to be more visually appealing */
+
+p {margin-bottom: 10px; }
+
+header {margin-left: 265px; 
+	margin-right: 265px; }
+
+section <h2> {margin-left: 10px; }
+
+ul {padding-left: 40px;
+    padding-bottom: 20px;  }
+
+ol {padding-left: 4px;
+    margin-left: 30px; }
+
+img {padding: 40px;
+     border: 1px solid black;
+     background-color: white;
+     pading-left: 10px; }
+
+a { color: #8c5900;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid #898989;
+    padding-bottom: 1px; }
+
+a:visited {color: #4a2885; }
+
+p, h1, h2, ol, ul {margin-top: 50;
+		    margin-bottom: 1px; }
+p {margin-left: 5px; }
+
+div#wrapper { width: 730px;
+	      margin-left: auto;
+	      margin-right: auto;
+	      margin-top: 10px;
+	      margin-bottom: 10px;
+	      background-color: #faf0e6;
+	      background-repeat: repeat-y; 
+	      background-position: left top;
+	      background-attachment: scroll;
+	      border: 1px solid black; }
+
+header {background: white url(images/creme-welcome.jpg) no-repeat; }
+
+img {float: left; 
+     padding: 4px;
+     border: 1px solid black;
+     margin-bottom: 75px;
+     background-color: white; }
+
+
+
+footer a:link {color: black; }
+
+footer p {margin-bottom: 10px; 
+	  float: left; }
+
+footer a:hover, footer a:focus, footer a:active {background-color: transparent;
+								border: none; }
+
+</html>
